@@ -1,23 +1,82 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
   <head>
-    <title>CSS/HTML Workshop with Privateaser</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
   </head>
   <body>
-    <div id="bar">
-      <input class="js-name" type="text" placeholder="Bar name"/>
-      <input class="js-price-by-hour" type="number" placeholder="Price by hour"/>
-      <input class="js-price-by-person" type="number" placeholder="Price by person"/>
+  
+  <div class="card bg-dark text-white">
+    <img src="bar.jpg" class="card-img" alt="...">
+      <div class="card-img-overlay mb-3">
+      <h1 class="card-title text-center">Booking center</h1>
+      <p class="card-text text-center">Please fill below to get your reservation!</p>
+    
+
+
+  <div class="row justify-content-center">
+ 
+    <div class="card bg-transparent mb-3 container-fluid" style="max-width: 20rem;">
+  
+      <div class="card-body">
+      <h1 class="text-center">Bar</h1>
+      <div class="container">
+        <div class="container-fluid">
+        <div id="bar">
+          <input  type="text" class="js-name form-control mb-3" id="inputEmail3" placeholder="Bar name"/>
+            <input  class="js-price-by-hour form-control mb-3" type="number" id="inputEmail3" placeholder="Price by hour"/>
+            <input  class="js-price-by-person form-control"  type="number" id="inputEmail3" placeholder="Price by person"/>
+          </div>
     </div>
-    <div id="booker">
-      <input class="js-name" type="text" placeholder="Booker name"/>
-      <input class="js-time" type="number" placeholder="Time in h"/>
-      <input class="js-persons" type="number" placeholder="Persons"/>
-      <input class="js-option" type="checkbox" placeholder="Deductible option"/>
     </div>
-    <button id="compute">Compute</button>
-    <div id="actors"></div>
+
+  </div>
+</div>
+
+<div class="card text-white bg-transparent mb-3 container-fluid" style="max-width: 20rem;">
+  
+  <div class="card-body">
+   <h1 class="text-center">Booker</h1>
+  <div class="container">
+  <div class="container-fluid">
+      <input class="js-name form-control mb-3" type="text" placeholder="Booker name"/>
+      <input class="js-time form-control mb-3" type="number" placeholder="Time in h"/>
+      <input class="js-persons form-control mb-3" type="number" placeholder="Persons"/>
+      <input class="js-option form-control" type="checkbox" placeholder="Deductible option"/>
+    </div>
+    </div>
+
+ 
+
+</div>
+</div>
+</div>
+<div class="container-fluid mb-3">
+<div class="col-sm-12 text-center mb-3">
+<button id="compute" type="button" class="btn btn-light center-block mb-3">Compute</button>
+  </div>
+</div>
+
+    
+
+ 
+</div>
+</div>
+</div>
+</div>
+
+   
+    <div id="actors">
+      
+    </div>
     <script src="privateaser.js"></script>
     <script src="index.js"></script>
+  
+    
   </body>
 </html>
